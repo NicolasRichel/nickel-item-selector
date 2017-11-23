@@ -6,6 +6,10 @@ import '../@polymer/polymer/lib/elements/dom-repeat.js';
 
 /**
  * # Nickel Item Selector
+ * 
+ * @customElement
+ * @polymer
+ * @demo demo/index.html
  */
 class NickelItemSelector extends PolymerElement {
 
@@ -14,7 +18,7 @@ class NickelItemSelector extends PolymerElement {
         <div id="container">
           <template is="dom-repeat" items="[[items]]">
             <div id="box[[index]]" class="item-container">
-              <span>Otpion [[index]]</span> : 
+              <span>Otpion [[index]]</span> :
             </div>
           </template>
           <array-selector
