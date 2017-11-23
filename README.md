@@ -1,5 +1,5 @@
 # \<nickel-item-selector\>
-(Built with Polymer 2.0)
+(Built with Polymer 3.0-preview)
 
 An adaptable item selector designed to be simple and customizable.
 
