@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>nickel-item-selector demo</title>
+
+    <!-- Loads Polyfills -->
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <!-- Loads Elements Modules -->
+    <script type="module" src="../nickel-item-selector.js"></script>
+  </head>
+  <body>
+    <h3>nickel-item-selector demo</h3>
+    <p>
+      Below is a simple example of how to use the <strong>nickel-item-selector</strong> element.<br/>
+      Note that the <b>input</b> element is slotted as <em>"item-elem"</em>, i.e. the element that
+      materialize the items and is used to select them.
+    </p>
+    <code>
+      &lt;nickel-item-selector items="[1,2,3]"&gt;<br/>
+      &ensp;&ensp;&ensp;&lt;input slot="item-elem" type="checkbox"&sol;&gt;<br/>
+      &lt;&sol;nickel-item-selector&gt;<br/>
+    </code>
+    <div id="demo" style="margin: 24px">
+      <nickel-item-selector items="[1,2,3]">
+        <input slot="item-elem" type="checkbox"/>
+      </nickel-item-selector>
+    </div>
+  </body>
+</html>
